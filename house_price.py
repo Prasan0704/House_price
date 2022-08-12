@@ -4,9 +4,9 @@ pd.set_option('display.width', desired_width)
 pd.set_option('display.max_columns',100)
 import seaborn as sns
 import matplotlib.pyplot as plt
-train=pd.read_csv('C:\\Users\\a\\Downloads\\kaggle_house-price-master\\kaggle_house-price-master')
+train=pd.read_csv('C:\\Users\\a\\Desktop\\kaggle_house-price-master\\kaggle_house-price-master')
 
-test=pd.read_csv('C:\\Users\\a\\Downloads\\kaggle_house-price-master\\kaggle_house-price-master')
+test=pd.read_csv('C:\\Users\\a\\Desktop\\kaggle_house-price-master\\kaggle_house-price-master')
 print(train.columns.shape)
 print(test.columns.shape)
 #print(train.columns)
